@@ -3,8 +3,7 @@ def roll_call_dwarves(array)
     puts "#{index + 1}. #{dwarf}"
 end
 
-def summon_captain_planet(array)
-  array = ["Earth", "Wind", "Fire", "Water", "Heart"]
+def summon_captain_planet(["Earth", "Wind", "Fire", "Water", "Heart"])
 end
 
 def long_planeteer_calls# code an argument here
