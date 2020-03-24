@@ -3,13 +3,10 @@ def roll_call_dwarves(array)
     puts "#{index + 1}. #{dwarf}"
 end
 
-def summon_captain_planet(summon)
-  summon.map { |planeteer| planeteer.capitalize + "!" }
+def summon_captain_planet
 end
 
-def long_planeteer_calls(summon)
-  planeteer_calls.any? do |call|
-  call.length > 4
+def long_planeteer_calls
 end
 
 def find_the_cheese# code an argument here
